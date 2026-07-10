@@ -1,0 +1,27 @@
+{
+  "description": "RAG-Fusion baseline (paraphrase + dense RRF, k0=60), MiniLM encoder",
+  "config": {
+    "top_k": 20,
+    "rrf_k": 60,
+    "n_paraphrases": 5,
+    "encoder": "all-MiniLM-L6-v2"
+  },
+  "hotpotqa_full": {
+    "n_test": 5924,
+    "n_paraphrases_per_query": 5,
+    "rrf_k": 60,
+    "ragfusion_cov20": 0.38521269412559084
+  },
+  "fever_full": {
+    "n_test": 5205,
+    "n_paraphrases_per_query": 5,
+    "rrf_k": 60,
+    "ragfusion_cov20": 0.9043227665706052
+  },
+  "squad_full": {
+    "n_test": 4743,
+    "n_paraphrases_per_query": 5,
+    "rrf_k": 60,
+    "ragfusion_cov20": 0.897954880877082
+  }
+}

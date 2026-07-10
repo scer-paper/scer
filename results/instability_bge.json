@@ -1,0 +1,26 @@
+[
+  {
+    "benchmark": "hotpotqa_full",
+    "model": "bge",
+    "st_overlap": 0.5963567407640719,
+    "jaccard_distance_pct": 40.364325923592816,
+    "dense_cov20_pct": 71.68129642133694,
+    "n": 7405
+  },
+  {
+    "benchmark": "fever_full",
+    "model": "bge",
+    "st_overlap": 0.5877500354844457,
+    "jaccard_distance_pct": 41.22499645155543,
+    "dense_cov20_pct": 94.38979403627421,
+    "n": 6506
+  },
+  {
+    "benchmark": "squad_full",
+    "model": "bge",
+    "st_overlap": 0.5971706630485275,
+    "jaccard_distance_pct": 40.28293369514725,
+    "dense_cov20_pct": 93.82591093117408,
+    "n": 5928
+  }
+]

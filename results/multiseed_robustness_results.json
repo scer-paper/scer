@@ -1,0 +1,448 @@
+{
+  "seeds": [
+    42,
+    0,
+    1,
+    2,
+    3
+  ],
+  "grid_size": 14000,
+  "per_seed": {
+    "42": {
+      "best_config": {
+        "a": 0.10000000149011612,
+        "b": 0.5,
+        "c": 1.0,
+        "d": 1.0,
+        "ws": 0.10000000149011612,
+        "disc": 0.4000000059604645
+      },
+      "best_cal_joint": 0.8578713513643557,
+      "per_setting": {
+        "hotpotqa_full/minilm": {
+          "hybrid": 0.5607697501688048,
+          "scer_fixed": 0.587609723160027,
+          "scer_tuned": 0.5833896016205267,
+          "gain_fixed": 0.026839972991222205,
+          "gain_tuned": 0.02261985145172185,
+          "n_test": 5924
+        },
+        "hotpotqa_full/qwen3_0.6b": {
+          "hybrid": 0.6174881836596894,
+          "scer_fixed": 0.637238352464551,
+          "scer_tuned": 0.6362255232950709,
+          "gain_fixed": 0.01975016880486158,
+          "gain_tuned": 0.01873733963538149,
+          "n_test": 5924
+        },
+        "hotpotqa_full/qwen3_8b": {
+          "hybrid": 0.7214719783929777,
+          "scer_fixed": 0.7294058068872383,
+          "scer_tuned": 0.7336259284267387,
+          "gain_fixed": 0.007933828494260609,
+          "gain_tuned": 0.012153950033760963,
+          "n_test": 5924
+        },
+        "fever_full/minilm": {
+          "hybrid": 0.9446685878962536,
+          "scer_fixed": 0.9508165225744476,
+          "scer_tuned": 0.9508165225744476,
+          "gain_fixed": 0.006147934678193967,
+          "gain_tuned": 0.006147934678193967,
+          "n_test": 5205
+        },
+        "fever_full/qwen3_0.6b": {
+          "hybrid": 0.9517771373679155,
+          "scer_fixed": 0.9540826128722383,
+          "scer_tuned": 0.9546589817483189,
+          "gain_fixed": 0.002305475504322807,
+          "gain_tuned": 0.0028818443804033977,
+          "n_test": 5205
+        },
+        "fever_full/qwen3_8b": {
+          "hybrid": 0.9621517771373679,
+          "scer_fixed": 0.9640730067243035,
+          "scer_tuned": 0.9648414985590779,
+          "gain_fixed": 0.0019212295869356355,
+          "gain_tuned": 0.0026897214217099785,
+          "n_test": 5205
+        },
+        "squad_full/minilm": {
+          "hybrid": 0.965001054185115,
+          "scer_fixed": 0.9746995572422518,
+          "scer_tuned": 0.974910394265233,
+          "gain_fixed": 0.00969850305713682,
+          "gain_tuned": 0.009909340080118012,
+          "n_test": 4743
+        },
+        "squad_full/qwen3_0.6b": {
+          "hybrid": 0.9744887202192705,
+          "scer_fixed": 0.9797596457938014,
+          "scer_tuned": 0.9791271347248577,
+          "gain_fixed": 0.005270925574530905,
+          "gain_tuned": 0.004638414505587218,
+          "n_test": 4743
+        },
+        "squad_full/qwen3_8b": {
+          "hybrid": 0.9831330381615011,
+          "scer_fixed": 0.9854522454142948,
+          "scer_tuned": 0.9850305713683323,
+          "gain_fixed": 0.0023192072527936647,
+          "gain_tuned": 0.00189753320683117,
+          "n_test": 4743
+        }
+      }
+    },
+    "0": {
+      "best_config": {
+        "a": 0.699999988079071,
+        "b": 1.0,
+        "c": 2.0,
+        "d": 1.5,
+        "ws": 0.20000000298023224,
+        "disc": 0.4000000059604645
+      },
+      "best_cal_joint": 0.8627595046820634,
+      "per_setting": {
+        "hotpotqa_full/minilm": {
+          "hybrid": 0.5584064821066846,
+          "scer_fixed": 0.5827143821742066,
+          "scer_tuned": 0.5752869682646861,
+          "gain_fixed": 0.024307900067521926,
+          "gain_tuned": 0.016880486158001418,
+          "n_test": 5924
+        },
+        "hotpotqa_full/qwen3_0.6b": {
+          "hybrid": 0.612930452397029,
+          "scer_fixed": 0.6338622552329507,
+          "scer_tuned": 0.6281228899392303,
+          "gain_fixed": 0.020931802835921665,
+          "gain_tuned": 0.015192437542201231,
+          "n_test": 5924
+        },
+        "hotpotqa_full/qwen3_8b": {
+          "hybrid": 0.7187711006076976,
+          "scer_fixed": 0.7265361242403782,
+          "scer_tuned": 0.7327819041188386,
+          "gain_fixed": 0.007765023632680612,
+          "gain_tuned": 0.014010803511141035,
+          "n_test": 5924
+        },
+        "fever_full/minilm": {
+          "hybrid": 0.94716618635927,
+          "scer_fixed": 0.9542747358309318,
+          "scer_tuned": 0.9536983669548511,
+          "gain_fixed": 0.00710854947166184,
+          "gain_tuned": 0.0065321805955811385,
+          "n_test": 5205
+        },
+        "fever_full/qwen3_0.6b": {
+          "hybrid": 0.9533141210374639,
+          "scer_fixed": 0.956388088376561,
+          "scer_tuned": 0.9571565802113352,
+          "gain_fixed": 0.003073967339097039,
+          "gain_tuned": 0.003842459173871271,
+          "n_test": 5205
+        },
+        "fever_full/qwen3_8b": {
+          "hybrid": 0.9633045148895293,
+          "scer_fixed": 0.9650336215177714,
+          "scer_tuned": 0.9661863592699328,
+          "gain_fixed": 0.0017291066282421053,
+          "gain_tuned": 0.0028818443804035088,
+          "n_test": 5205
+        },
+        "squad_full/minilm": {
+          "hybrid": 0.9622601728863589,
+          "scer_fixed": 0.9734345351043643,
+          "scer_tuned": 0.9725911870124394,
+          "gain_fixed": 0.011174362218005385,
+          "gain_tuned": 0.010331014126080507,
+          "n_test": 4743
+        },
+        "squad_full/qwen3_0.6b": {
+          "hybrid": 0.9715370018975332,
+          "scer_fixed": 0.978494623655914,
+          "scer_tuned": 0.9768079274720641,
+          "gain_fixed": 0.006957621758380772,
+          "gain_tuned": 0.005270925574530905,
+          "n_test": 4743
+        },
+        "squad_full/qwen3_8b": {
+          "hybrid": 0.9801813198397639,
+          "scer_fixed": 0.9839763862534261,
+          "scer_tuned": 0.9837655492304449,
+          "gain_fixed": 0.003795066413662229,
+          "gain_tuned": 0.0035842293906810374,
+          "n_test": 4743
+        }
+      }
+    },
+    "1": {
+      "best_config": {
+        "a": 0.30000001192092896,
+        "b": 1.0,
+        "c": 2.0,
+        "d": 1.5,
+        "ws": 0.20000000298023224,
+        "disc": 0.4000000059604645
+      },
+      "best_cal_joint": 0.8558492810623665,
+      "per_setting": {
+        "hotpotqa_full/minilm": {
+          "hybrid": 0.5606009453072248,
+          "scer_fixed": 0.587440918298447,
+          "scer_tuned": 0.5862592842673869,
+          "gain_fixed": 0.026839972991222205,
+          "gain_tuned": 0.02565833896016212,
+          "n_test": 5924
+        },
+        "hotpotqa_full/qwen3_0.6b": {
+          "hybrid": 0.613436866981769,
+          "scer_fixed": 0.6350438892640108,
+          "scer_tuned": 0.6357191087103309,
+          "gain_fixed": 0.02160702228224176,
+          "gain_tuned": 0.022282241728561858,
+          "n_test": 5924
+        },
+        "hotpotqa_full/qwen3_8b": {
+          "hybrid": 0.7201215395003376,
+          "scer_fixed": 0.7287305874409183,
+          "scer_tuned": 0.7294058068872383,
+          "gain_fixed": 0.008609047940580705,
+          "gain_tuned": 0.00928426738690069,
+          "n_test": 5924
+        },
+        "fever_full/minilm": {
+          "hybrid": 0.9473583093179635,
+          "scer_fixed": 0.9540826128722383,
+          "scer_tuned": 0.9540826128722383,
+          "gain_fixed": 0.00672430355427478,
+          "gain_tuned": 0.00672430355427478,
+          "n_test": 5205
+        },
+        "fever_full/qwen3_0.6b": {
+          "hybrid": 0.9538904899135446,
+          "scer_fixed": 0.9560038424591739,
+          "scer_tuned": 0.9561959654178674,
+          "gain_fixed": 0.0021133525456292768,
+          "gain_tuned": 0.002305475504322807,
+          "n_test": 5205
+        },
+        "fever_full/qwen3_8b": {
+          "hybrid": 0.9640730067243035,
+          "scer_fixed": 0.9656099903938521,
+          "scer_tuned": 0.9663784822286263,
+          "gain_fixed": 0.001536983669548575,
+          "gain_tuned": 0.002305475504322807,
+          "n_test": 5205
+        },
+        "squad_full/minilm": {
+          "hybrid": 0.9647902171621336,
+          "scer_fixed": 0.975753742357158,
+          "scer_tuned": 0.975753742357158,
+          "gain_fixed": 0.010963525195024304,
+          "gain_tuned": 0.010963525195024304,
+          "n_test": 4743
+        },
+        "squad_full/qwen3_0.6b": {
+          "hybrid": 0.9736453721273456,
+          "scer_fixed": 0.9801813198397639,
+          "scer_tuned": 0.9806029938857264,
+          "gain_fixed": 0.006535947712418277,
+          "gain_tuned": 0.006957621758380772,
+          "n_test": 4743
+        },
+        "squad_full/qwen3_8b": {
+          "hybrid": 0.9816571790006325,
+          "scer_fixed": 0.9852414083913135,
+          "scer_tuned": 0.9850305713683323,
+          "gain_fixed": 0.0035842293906809264,
+          "gain_tuned": 0.0033733923676997346,
+          "n_test": 4743
+        }
+      }
+    },
+    "2": {
+      "best_config": {
+        "a": 0.6000000238418579,
+        "b": 0.75,
+        "c": 2.5,
+        "d": 1.5,
+        "ws": 0.4000000059604645,
+        "disc": 0.4000000059604645
+      },
+      "best_cal_joint": 0.8625632072189776,
+      "per_setting": {
+        "hotpotqa_full/minilm": {
+          "hybrid": 0.5604321404456448,
+          "scer_fixed": 0.5838960162052668,
+          "scer_tuned": 0.5833896016205267,
+          "gain_fixed": 0.023463875759621944,
+          "gain_tuned": 0.022957461174881844,
+          "n_test": 5924
+        },
+        "hotpotqa_full/qwen3_0.6b": {
+          "hybrid": 0.611580013504389,
+          "scer_fixed": 0.6314989871708305,
+          "scer_tuned": 0.6309925725860904,
+          "gain_fixed": 0.019918973666441575,
+          "gain_tuned": 0.019412559081701475,
+          "n_test": 5924
+        },
+        "hotpotqa_full/qwen3_8b": {
+          "hybrid": 0.7189399054692776,
+          "scer_fixed": 0.7268737339635382,
+          "scer_tuned": 0.7261985145172181,
+          "gain_fixed": 0.007933828494260609,
+          "gain_tuned": 0.007258609047940512,
+          "n_test": 5924
+        },
+        "fever_full/minilm": {
+          "hybrid": 0.9465898174831893,
+          "scer_fixed": 0.9531219980787704,
+          "scer_tuned": 0.9529298751200769,
+          "gain_fixed": 0.0065321805955811385,
+          "gain_tuned": 0.006340057636887608,
+          "n_test": 5205
+        },
+        "fever_full/qwen3_0.6b": {
+          "hybrid": 0.9527377521613832,
+          "scer_fixed": 0.9554274735830932,
+          "scer_tuned": 0.9554274735830932,
+          "gain_fixed": 0.0026897214217099785,
+          "gain_tuned": 0.0026897214217099785,
+          "n_test": 5205
+        },
+        "fever_full/qwen3_8b": {
+          "hybrid": 0.9629202689721422,
+          "scer_fixed": 0.9650336215177714,
+          "scer_tuned": 0.9652257444764649,
+          "gain_fixed": 0.0021133525456291657,
+          "gain_tuned": 0.002305475504322696,
+          "n_test": 5205
+        },
+        "squad_full/minilm": {
+          "hybrid": 0.9652118912080961,
+          "scer_fixed": 0.9744887202192705,
+          "scer_tuned": 0.9744887202192705,
+          "gain_fixed": 0.009276829011174326,
+          "gain_tuned": 0.009276829011174326,
+          "n_test": 4743
+        },
+        "squad_full/qwen3_0.6b": {
+          "hybrid": 0.9728020240354206,
+          "scer_fixed": 0.9778621125869703,
+          "scer_tuned": 0.9780729496099515,
+          "gain_fixed": 0.005060088551549713,
+          "gain_tuned": 0.005270925574530905,
+          "n_test": 4743
+        },
+        "squad_full/qwen3_8b": {
+          "hybrid": 0.9808138309087076,
+          "scer_fixed": 0.9839763862534261,
+          "scer_tuned": 0.9837655492304449,
+          "gain_fixed": 0.003162555344718543,
+          "gain_tuned": 0.002951718321737351,
+          "n_test": 4743
+        }
+      }
+    },
+    "3": {
+      "best_config": {
+        "a": 0.4000000059604645,
+        "b": 0.0,
+        "c": 1.5,
+        "d": 1.5,
+        "ws": 0.20000000298023224,
+        "disc": 0.4000000059604645
+      },
+      "best_cal_joint": 0.8651255288476932,
+      "per_setting": {
+        "hotpotqa_full/minilm": {
+          "hybrid": 0.5568872383524646,
+          "scer_fixed": 0.5825455773126266,
+          "scer_tuned": 0.5833896016205267,
+          "gain_fixed": 0.025658338960162008,
+          "gain_tuned": 0.0265023632680621,
+          "n_test": 5924
+        },
+        "hotpotqa_full/qwen3_0.6b": {
+          "hybrid": 0.6105671843349089,
+          "scer_fixed": 0.6318365968939905,
+          "scer_tuned": 0.6309925725860904,
+          "gain_fixed": 0.021269412559081657,
+          "gain_tuned": 0.020425388251181564,
+          "n_test": 5924
+        },
+        "hotpotqa_full/qwen3_8b": {
+          "hybrid": 0.7184334908845375,
+          "scer_fixed": 0.7260297096556381,
+          "scer_tuned": 0.7256920999324781,
+          "gain_fixed": 0.007596218771100616,
+          "gain_tuned": 0.007258609047940623,
+          "n_test": 5924
+        },
+        "fever_full/minilm": {
+          "hybrid": 0.94447646493756,
+          "scer_fixed": 0.9508165225744476,
+          "scer_tuned": 0.9506243996157541,
+          "gain_fixed": 0.006340057636887608,
+          "gain_tuned": 0.006147934678194078,
+          "n_test": 5205
+        },
+        "fever_full/qwen3_0.6b": {
+          "hybrid": 0.9513928914505283,
+          "scer_fixed": 0.9536983669548511,
+          "scer_tuned": 0.9538904899135446,
+          "gain_fixed": 0.002305475504322807,
+          "gain_tuned": 0.0024975984630163373,
+          "n_test": 5205
+        },
+        "fever_full/qwen3_8b": {
+          "hybrid": 0.9619596541786744,
+          "scer_fixed": 0.9636887608069165,
+          "scer_tuned": 0.96388088376561,
+          "gain_fixed": 0.0017291066282421053,
+          "gain_tuned": 0.0019212295869356355,
+          "n_test": 5205
+        },
+        "squad_full/minilm": {
+          "hybrid": 0.9656335652540586,
+          "scer_fixed": 0.9751212312882143,
+          "scer_tuned": 0.9751212312882143,
+          "gain_fixed": 0.009487666034155628,
+          "gain_tuned": 0.009487666034155628,
+          "n_test": 4743
+        },
+        "squad_full/qwen3_0.6b": {
+          "hybrid": 0.9753320683111955,
+          "scer_fixed": 0.9797596457938014,
+          "scer_tuned": 0.9793379717478389,
+          "gain_fixed": 0.0044275774826059155,
+          "gain_tuned": 0.004005903436643421,
+          "n_test": 4743
+        },
+        "squad_full/qwen3_8b": {
+          "hybrid": 0.9822896900695762,
+          "scer_fixed": 0.9848197343453511,
+          "scer_tuned": 0.9843980602993886,
+          "gain_fixed": 0.0025300442757748565,
+          "gain_tuned": 0.002108370229812362,
+          "n_test": 4743
+        }
+      }
+    }
+  },
+  "settings": [
+    "hotpotqa_full/minilm",
+    "hotpotqa_full/qwen3_0.6b",
+    "hotpotqa_full/qwen3_8b",
+    "fever_full/minilm",
+    "fever_full/qwen3_0.6b",
+    "fever_full/qwen3_8b",
+    "squad_full/minilm",
+    "squad_full/qwen3_0.6b",
+    "squad_full/qwen3_8b"
+  ]
+}

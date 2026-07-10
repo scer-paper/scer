@@ -1,0 +1,20 @@
+# Core
+numpy
+torch
+sentence-transformers==3.4
+transformers==5.8
+faiss-cpu==1.13
+pyserini==1.2
+
+# LLM serving (paraphrase generation + answer generation)
+vllm==0.16
+
+# Datasets
+datasets
+
+# Audit (GPT-5.4)
+openai
+
+# Plotting (figures 2-4)
+matplotlib
+scipy

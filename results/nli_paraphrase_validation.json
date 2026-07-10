@@ -1,0 +1,23 @@
+{
+  "hotpotqa_full": {
+    "n_pairs": 37025,
+    "fwd_entailment": 0.9476,
+    "bwd_entailment": 0.9017,
+    "bidirectional_entailment": 0.8674,
+    "contradiction": 0.0222
+  },
+  "fever_full": {
+    "n_pairs": 32530,
+    "fwd_entailment": 0.9518,
+    "bwd_entailment": 0.9549,
+    "bidirectional_entailment": 0.916,
+    "contradiction": 0.0237
+  },
+  "squad_full": {
+    "n_pairs": 29640,
+    "fwd_entailment": 0.9318,
+    "bwd_entailment": 0.9372,
+    "bidirectional_entailment": 0.8834,
+    "contradiction": 0.0228
+  }
+}

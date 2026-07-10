@@ -1,0 +1,12 @@
+{
+  "benchmark": "fever_full",
+  "model": "colbertv2.0",
+  "n_test": 5205,
+  "coverage_at_20": 0.9381364073006724,
+  "mean_stability": 0.4907917583980424,
+  "mean_instability_pct": 50.920824160195764,
+  "unstable_coverage": 0.9250896057347671,
+  "stable_coverage": 0.9532091097308488,
+  "n_unstable": 2790,
+  "n_stable": 2415
+}

@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Caches and indexes
+data/*/cache_*/
+**/lucene_index/
+*.pkl
+*.npy
+*.npz
+
+# Benchmark data (not redistributed)
+data/hotpotqa*/
+data/fever*/
+data/squad*/
+data/**/questions.json
+data/**/paraphrases.json
+data/**/paragraph_corpus*.json
+data/**/sentence_corpus*.json
+
+# Models
+models/*.bin
+models/*.safetensors
+*.pt
+
+# Generated figures + audit raw outputs
+**/figures/*.png
+**/figures/*.pdf
+pipeline/gpt5.4_audit/outputs/*.jsonl
+
+# Local env
+.env
+
+# Editor
+.vscode/
+.idea/
+*.swp
+.DS_Store

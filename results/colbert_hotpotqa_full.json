@@ -1,0 +1,12 @@
+{
+  "benchmark": "hotpotqa_full",
+  "model": "colbertv2.0",
+  "n_test": 5924,
+  "coverage_at_20": 0.5697164078325456,
+  "mean_stability": 0.44440800529512525,
+  "mean_instability_pct": 55.55919947048748,
+  "unstable_coverage": 0.5326001571091908,
+  "stable_coverage": 0.6370546318289786,
+  "n_unstable": 3819,
+  "n_stable": 2105
+}

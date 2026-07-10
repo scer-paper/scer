@@ -1,0 +1,37 @@
+{
+  "description": "Latency with optimized weights, HotpotQA/MiniLM, H100 GPU",
+  "weights": {
+    "a": 0.3,
+    "b": 0.5,
+    "c": 1.5,
+    "d": 1.0,
+    "w_s": 0.2,
+    "disc": 0.4
+  },
+  "retrieval_latency": {
+    "n_queries": 1000,
+    "dense_ms": {
+      "mean": 3.7,
+      "median": 3.6
+    },
+    "hybrid_ms": {
+      "mean": 7.4,
+      "median": 6.3
+    },
+    "scer_no_gen_ms": {
+      "mean": 20.8,
+      "median": 19.8
+    }
+  },
+  "paraphrase_gen_ms": {
+    "mean": 1735.6,
+    "median": 1644.6,
+    "p95": 2555.0,
+    "n_queries": 1000,
+    "description": "Per-query paraphrase generation (5 paraphrases), Qwen3-32B-FP8 TP=2, H100"
+  },
+  "scer_with_gen_ms": {
+    "mean": 1756.4
+  },
+  "scer_overhead_vs_hybrid_ms": 13.4
+}

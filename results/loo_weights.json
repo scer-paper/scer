@@ -1,0 +1,198 @@
+{
+  "fold_results": {
+    "hotpotqa_full/minilm": {
+      "best_w_loo": {
+        "a": 0.3,
+        "b": 0.5,
+        "c": 2.0,
+        "d": 1.5,
+        "ws": 0.2,
+        "gamma": 0.3
+      },
+      "best_cal_mean_cov": 0.89375,
+      "test_cov_loo": 0.588116137744767,
+      "test_cov_paper_joint": 0.587609723160027,
+      "test_cov_uniform": 0.5634706279540851,
+      "delta_loo_vs_paper": 0.0005064145847399892,
+      "delta_loo_vs_uniform": 0.02464550979068192
+    },
+    "hotpotqa_full/qwen3_0.6b": {
+      "best_w_loo": {
+        "a": 0.1,
+        "b": 0.5,
+        "c": 1.5,
+        "d": 1.5,
+        "ws": 0.1,
+        "gamma": 0.3
+      },
+      "best_cal_mean_cov": 0.886875,
+      "test_cov_loo": 0.6353814989871708,
+      "test_cov_paper_joint": 0.637238352464551,
+      "test_cov_uniform": 0.6212018906144497,
+      "delta_loo_vs_paper": -0.0018568534773801826,
+      "delta_loo_vs_uniform": 0.014179608372721031
+    },
+    "hotpotqa_full/qwen3_8b": {
+      "best_w_loo": {
+        "a": 0.1,
+        "b": 0.5,
+        "c": 1.5,
+        "d": 1.5,
+        "ws": 0.1,
+        "gamma": 0.3
+      },
+      "best_cal_mean_cov": 0.8775,
+      "test_cov_loo": 0.724679270762998,
+      "test_cov_paper_joint": 0.7294058068872383,
+      "test_cov_uniform": 0.7277177582714383,
+      "delta_loo_vs_paper": -0.004726536124240344,
+      "delta_loo_vs_uniform": -0.0030384875084402685
+    },
+    "fever_full/minilm": {
+      "best_w_loo": {
+        "a": 0.3,
+        "b": 0.5,
+        "c": 2.0,
+        "d": 1.5,
+        "ws": 0.2,
+        "gamma": 0.3
+      },
+      "best_cal_mean_cov": 0.845,
+      "test_cov_loo": 0.9508165225744476,
+      "test_cov_paper_joint": 0.9508165225744476,
+      "test_cov_uniform": 0.9483189241114313,
+      "delta_loo_vs_paper": 0.0,
+      "delta_loo_vs_uniform": 0.0024975984630163373
+    },
+    "fever_full/qwen3_0.6b": {
+      "best_w_loo": {
+        "a": 0.3,
+        "b": 0.5,
+        "c": 2.0,
+        "d": 1.5,
+        "ws": 0.2,
+        "gamma": 0.3
+      },
+      "best_cal_mean_cov": 0.844375,
+      "test_cov_loo": 0.9544668587896253,
+      "test_cov_paper_joint": 0.9540826128722383,
+      "test_cov_uniform": 0.9525456292026897,
+      "delta_loo_vs_paper": 0.0003842459173870605,
+      "delta_loo_vs_uniform": 0.0019212295869356355
+    },
+    "fever_full/qwen3_8b": {
+      "best_w_loo": {
+        "a": 0.3,
+        "b": 0.5,
+        "c": 2.0,
+        "d": 1.5,
+        "ws": 0.2,
+        "gamma": 0.3
+      },
+      "best_cal_mean_cov": 0.846875,
+      "test_cov_loo": 0.96388088376561,
+      "test_cov_paper_joint": 0.9640730067243035,
+      "test_cov_uniform": 0.9633045148895293,
+      "delta_loo_vs_paper": -0.00019212295869353024,
+      "delta_loo_vs_uniform": 0.0005763688760807018
+    },
+    "squad_full/minilm": {
+      "best_w_loo": {
+        "a": 0.3,
+        "b": 0.5,
+        "c": 2.0,
+        "d": 1.5,
+        "ws": 0.2,
+        "gamma": 0.3
+      },
+      "best_cal_mean_cov": 0.840625,
+      "test_cov_loo": 0.974910394265233,
+      "test_cov_paper_joint": 0.9746995572422518,
+      "test_cov_uniform": 0.9723803499894581,
+      "delta_loo_vs_paper": 0.00021083702298119178,
+      "delta_loo_vs_uniform": 0.0025300442757748565
+    },
+    "squad_full/qwen3_0.6b": {
+      "best_w_loo": {
+        "a": 0.1,
+        "b": 0.5,
+        "c": 1.0,
+        "d": 0.5,
+        "ws": 0.1,
+        "gamma": 0.3
+      },
+      "best_cal_mean_cov": 0.84375,
+      "test_cov_loo": 0.9797596457938014,
+      "test_cov_paper_joint": 0.9797596457938014,
+      "test_cov_uniform": 0.9772296015180265,
+      "delta_loo_vs_paper": 0.0,
+      "delta_loo_vs_uniform": 0.0025300442757748565
+    },
+    "squad_full/qwen3_8b": {
+      "best_w_loo": {
+        "a": 0.3,
+        "b": 0.5,
+        "c": 2.0,
+        "d": 1.5,
+        "ws": 0.2,
+        "gamma": 0.3
+      },
+      "best_cal_mean_cov": 0.8418749999999999,
+      "test_cov_loo": 0.9852414083913135,
+      "test_cov_paper_joint": 0.9854522454142948,
+      "test_cov_uniform": 0.9854522454142948,
+      "delta_loo_vs_paper": -0.0002108370229813028,
+      "delta_loo_vs_uniform": -0.0002108370229813028
+    }
+  },
+  "weight_variance_across_folds": {
+    "a": {
+      "mean": 0.23333333333333334,
+      "sd": 0.09428090415820632,
+      "min": 0.1,
+      "max": 0.3
+    },
+    "b": {
+      "mean": 0.5,
+      "sd": 0.0,
+      "min": 0.5,
+      "max": 0.5
+    },
+    "c": {
+      "mean": 1.7777777777777777,
+      "sd": 0.34246744460938755,
+      "min": 1.0,
+      "max": 2.0
+    },
+    "d": {
+      "mean": 1.3888888888888888,
+      "sd": 0.3142696805273545,
+      "min": 0.5,
+      "max": 1.5
+    },
+    "ws": {
+      "mean": 0.16666666666666669,
+      "sd": 0.047140452079103175,
+      "min": 0.1,
+      "max": 0.2
+    },
+    "gamma": {
+      "mean": 0.3,
+      "sd": 0.0,
+      "min": 0.3,
+      "max": 0.3
+    }
+  },
+  "paper_weights": {
+    "a": 0.3,
+    "b": 0.5,
+    "c": 1.5,
+    "d": 1.0,
+    "ws": 0.2,
+    "gamma": 0.4
+  },
+  "mean_delta_loo_vs_paper": -0.0006538724509096797,
+  "mean_delta_loo_vs_uniform": 0.005070119901062641,
+  "n_folds_loo_beats_paper": 3,
+  "n_folds_loo_beats_uniform": 7
+}

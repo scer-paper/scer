@@ -1,0 +1,12 @@
+{
+  "benchmark": "squad_full",
+  "model": "colbertv2.0",
+  "n_test": 4743,
+  "coverage_at_20": 0.98123550495467,
+  "mean_stability": 0.5135026403890458,
+  "mean_instability_pct": 48.649735961095416,
+  "unstable_coverage": 0.9740791268758526,
+  "stable_coverage": 0.9874213836477987,
+  "n_unstable": 2199,
+  "n_stable": 2544
+}

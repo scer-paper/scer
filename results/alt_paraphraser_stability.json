@@ -1,0 +1,50 @@
+{
+  "hotpotqa_full/minilm": {
+    "n_pairs": 29590,
+    "n_test_queries": 5924,
+    "jaccard_mean": 0.4536132838638199,
+    "jaccard_distance_mean": 0.5463867161361802,
+    "replace_mean": 0.4045116593443731,
+    "rbo_mean": 0.5513174683663691
+  },
+  "hotpotqa_full/qwen3_8b": {
+    "n_pairs": 29590,
+    "n_test_queries": 5924,
+    "jaccard_mean": 0.17232454238780728,
+    "jaccard_distance_mean": 0.8276754576121927,
+    "replace_mean": 0.7281463332206828,
+    "rbo_mean": 0.25162958010309855
+  },
+  "fever_full/minilm": {
+    "n_pairs": 26024,
+    "n_test_queries": 5205,
+    "jaccard_mean": 0.46953751835119945,
+    "jaccard_distance_mean": 0.5304624816488006,
+    "replace_mean": 0.38246618505994473,
+    "rbo_mean": 0.5814224125099028
+  },
+  "fever_full/qwen3_8b": {
+    "n_pairs": 26024,
+    "n_test_queries": 5205,
+    "jaccard_mean": 0.23250650365915282,
+    "jaccard_distance_mean": 0.7674934963408472,
+    "replace_mean": 0.6430813864125422,
+    "rbo_mean": 0.40343916762264426
+  },
+  "squad_full/minilm": {
+    "n_pairs": 23710,
+    "n_test_queries": 4743,
+    "jaccard_mean": 0.5298477050166229,
+    "jaccard_distance_mean": 0.4701522949833771,
+    "replace_mean": 0.33433783213833823,
+    "rbo_mean": 0.5700963887013429
+  },
+  "squad_full/qwen3_8b": {
+    "n_pairs": 23710,
+    "n_test_queries": 4743,
+    "jaccard_mean": 0.28997342619929645,
+    "jaccard_distance_mean": 0.7100265738007036,
+    "replace_mean": 0.579852382960776,
+    "rbo_mean": 0.3660296393847325
+  }
+}

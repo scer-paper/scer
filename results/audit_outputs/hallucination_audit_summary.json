@@ -1,0 +1,149 @@
+{
+  "errors": 0,
+  "per_setting": {
+    "hotpotqa_full/minilm/hybrid": {
+      "n": 100,
+      "supported_pct": 53.0,
+      "partially_supported_pct": 6.0,
+      "not_supported_pct": 40.0,
+      "contradicted_pct": 1.0,
+      "any_unsupported_pct": 47.0
+    },
+    "hotpotqa_full/minilm/scer": {
+      "n": 100,
+      "supported_pct": 54.0,
+      "partially_supported_pct": 8.0,
+      "not_supported_pct": 32.0,
+      "contradicted_pct": 6.0,
+      "any_unsupported_pct": 46.0
+    },
+    "hotpotqa_full/qwen3_0.6b/hybrid": {
+      "n": 100,
+      "supported_pct": 56.0,
+      "partially_supported_pct": 5.0,
+      "not_supported_pct": 35.0,
+      "contradicted_pct": 4.0,
+      "any_unsupported_pct": 44.0
+    },
+    "hotpotqa_full/qwen3_0.6b/scer": {
+      "n": 100,
+      "supported_pct": 61.0,
+      "partially_supported_pct": 5.0,
+      "not_supported_pct": 32.0,
+      "contradicted_pct": 2.0,
+      "any_unsupported_pct": 39.0
+    },
+    "hotpotqa_full/qwen3_8b/scer": {
+      "n": 100,
+      "supported_pct": 63.0,
+      "partially_supported_pct": 6.0,
+      "not_supported_pct": 25.0,
+      "contradicted_pct": 6.0,
+      "any_unsupported_pct": 37.0
+    },
+    "hotpotqa_full/qwen3_8b/hybrid": {
+      "n": 100,
+      "supported_pct": 64.0,
+      "partially_supported_pct": 8.0,
+      "not_supported_pct": 26.0,
+      "contradicted_pct": 2.0,
+      "any_unsupported_pct": 36.0
+    },
+    "fever_full/minilm/scer": {
+      "n": 100,
+      "supported_pct": 78.0,
+      "partially_supported_pct": 2.0,
+      "not_supported_pct": 14.0,
+      "contradicted_pct": 6.0,
+      "any_unsupported_pct": 22.0
+    },
+    "fever_full/minilm/hybrid": {
+      "n": 100,
+      "supported_pct": 76.0,
+      "partially_supported_pct": 1.0,
+      "not_supported_pct": 16.0,
+      "contradicted_pct": 7.0,
+      "any_unsupported_pct": 24.0
+    },
+    "fever_full/qwen3_0.6b/scer": {
+      "n": 100,
+      "supported_pct": 83.0,
+      "partially_supported_pct": 2.0,
+      "not_supported_pct": 9.0,
+      "contradicted_pct": 6.0,
+      "any_unsupported_pct": 17.0
+    },
+    "fever_full/qwen3_0.6b/hybrid": {
+      "n": 100,
+      "supported_pct": 83.0,
+      "partially_supported_pct": 2.0,
+      "not_supported_pct": 9.0,
+      "contradicted_pct": 6.0,
+      "any_unsupported_pct": 17.0
+    },
+    "fever_full/qwen3_8b/hybrid": {
+      "n": 100,
+      "supported_pct": 86.0,
+      "partially_supported_pct": 2.0,
+      "not_supported_pct": 8.0,
+      "contradicted_pct": 4.0,
+      "any_unsupported_pct": 14.0
+    },
+    "fever_full/qwen3_8b/scer": {
+      "n": 100,
+      "supported_pct": 90.0,
+      "partially_supported_pct": 1.0,
+      "not_supported_pct": 6.0,
+      "contradicted_pct": 3.0,
+      "any_unsupported_pct": 10.0
+    },
+    "squad_full/minilm/scer": {
+      "n": 100,
+      "supported_pct": 76.0,
+      "partially_supported_pct": 6.0,
+      "not_supported_pct": 15.0,
+      "contradicted_pct": 3.0,
+      "any_unsupported_pct": 24.0
+    },
+    "squad_full/minilm/hybrid": {
+      "n": 100,
+      "supported_pct": 78.0,
+      "partially_supported_pct": 7.0,
+      "not_supported_pct": 13.0,
+      "contradicted_pct": 2.0,
+      "any_unsupported_pct": 22.0
+    },
+    "squad_full/qwen3_0.6b/scer": {
+      "n": 100,
+      "supported_pct": 80.0,
+      "partially_supported_pct": 6.0,
+      "not_supported_pct": 11.0,
+      "contradicted_pct": 3.0,
+      "any_unsupported_pct": 20.0
+    },
+    "squad_full/qwen3_0.6b/hybrid": {
+      "n": 100,
+      "supported_pct": 77.0,
+      "partially_supported_pct": 6.0,
+      "not_supported_pct": 15.0,
+      "contradicted_pct": 2.0,
+      "any_unsupported_pct": 23.0
+    },
+    "squad_full/qwen3_8b/hybrid": {
+      "n": 100,
+      "supported_pct": 82.0,
+      "partially_supported_pct": 5.0,
+      "not_supported_pct": 12.0,
+      "contradicted_pct": 1.0,
+      "any_unsupported_pct": 18.0
+    },
+    "squad_full/qwen3_8b/scer": {
+      "n": 100,
+      "supported_pct": 83.0,
+      "partially_supported_pct": 3.0,
+      "not_supported_pct": 10.0,
+      "contradicted_pct": 4.0,
+      "any_unsupported_pct": 17.0
+    }
+  }
+}
